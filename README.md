@@ -9,7 +9,9 @@ git fetch && \
 git checkout v1.0.3 && \
 make install && \
 haqqd version --long | head
-
+```
+You should see this in the output
+```
 name: haqq
 server_name: haqqd
 version: '"1.0.3"'
